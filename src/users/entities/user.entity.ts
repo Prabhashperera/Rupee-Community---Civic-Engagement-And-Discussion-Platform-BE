@@ -2,7 +2,7 @@ import { Column, CreateDateColumn, Entity, Generated, PrimaryGeneratedColumn, Up
 import {UserRoles, UserStatus} from "../enum/user-role.enum.js";
 
 
-@Entity()
+@Entity('users')
 export class User {
 
     @PrimaryGeneratedColumn('uuid')
